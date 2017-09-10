@@ -44,3 +44,7 @@
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.no-underline {
+    text-decoration: none !important;
+}
