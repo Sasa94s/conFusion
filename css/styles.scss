@@ -70,3 +70,24 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+.sr-only {
+    color:#0f0f0f;
+}
+
+.modal-content {
+    color: #0f0f0f;
+    .modal-header {
+        background-color: $background-dark;
+        .modal-title {
+            color: floralwhite;
+        }
+    }
+    .modal-body {
+        background-color: $background-pale;
+    }
+    .modal-footer {
+        background-color: $background-pale;
+    }
+
+}

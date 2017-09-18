@@ -12,3 +12,21 @@ $(document).ready(function(){
         }
     });
 });
+
+//showing modal trigger
+$("#reserveButton").click(function(){
+    $("#reserveModal").modal('show');
+});
+//hiding modal trigger
+$("#cancelReserve").click(function(){
+    $("#reserveModal").modal('hide');
+});
+
+//showing login trigger
+$("#loginButton").click(function(){
+    $("#loginModal").modal('show');
+});
+//hiding login trigger
+$("#cancelLogin").click(function(){
+    $("#loginModal").modal('hide');
+});
